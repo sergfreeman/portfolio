@@ -394,7 +394,7 @@ footer {
 
 @font-face {
     font-family: myULFont;
-    src: url('./fonts/sf-cartoonist-hand.bold.ttf');
+    src: url('/fonts/sf-cartoonist-hand.bold.ttf');
 }
 
 @media only screen and (max-width: 550px) {
