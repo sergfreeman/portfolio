@@ -24,8 +24,8 @@
 header {
     margin: 5px;
     display: flex;
-    /* display: block; */
     width: 1000px;
+    font: myHeaderFont;
 
     flex-direction: row;
     flex-wrap: wrap;
@@ -393,8 +393,8 @@ footer {
 /* FOOTER finish */
 
 @font-face {
-    font-family: myULFont;
-    src: url('//fonts/sf-cartoonist-hand.bold.ttf');
+    font-family: myHeaderFont;
+    src: url('//fonts/Nunito-VariableFont_wght.ttf');
 }
 
 @media only screen and (max-width: 550px) {
