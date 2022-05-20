@@ -117,7 +117,7 @@ em {
 
 @font-face {
     font-family: headerFont;
-    src: url('./fonts/Tinos-BoldItalic.ttf');
+    src: url('../fonts/Tinos-BoldItalic.ttf');
 }
 
 @font-face {
