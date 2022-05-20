@@ -122,7 +122,7 @@ em {
 
 @font-face {
     font-family: navFont;
-    src: url('/projects/pet/ukr-folk-songs/fonts/Tinos-Bold.ttf');
+    src: url('../fonts/Tinos-Bold.ttf');
 }
 
 @media screen and (max-width: 410px) {
