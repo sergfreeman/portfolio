@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: coral;
+    box-sizing: border-box;
+    /* border: 1px red solid; */
+}
+
+/* body{
+    padding: 10px;
+} */
+
+/* HEADER start  */
+.header-fill {
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0), rgb(20, 46, 51));
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    margin: 5px;
+    display: flex;
+    /* display: block; */
+    width: 1000px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: auto;
+}
+
+
+.top-string {
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    line-height: 20px;
+    text-shadow: red 0 0 5px, red 0 0 10px;
+}
+
+.bottom-string {
+    margin-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.by {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+.string-name {
+    /* display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: red 0 0 1px, red 0 0 0px; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+
+
+}
+
+.datePlace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.timeTitle {
+    font-size: 15px;
+    text-align: center;
+}
+
+.theTime {
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: overline;
+    text-align: center;
+
+}
+
+/* HEDER finish  */
+
+
+
+/* ABOUT: start */
+.about-fill {
+    background-color: rgb(20, 46, 51);
+}
+
+.about {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-about {
+    text-align: justify;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: baseline;
+    color: #fff;
+}
+
+h2 {
+    display: flex;
+    text-align: left;
+    font-style: italic;
+    color: #fff;
+}
+
+h3 {
+    margin: 10px;
+    text-align: justify;
+    color: pinc;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    color: #fff;
+}
+
+.html,
+.css,
+.js {
+    text-shadow: 0 0 13px coral, 0 0 3px rgb(245, 12, 12);
+    color: white;
+    font-size: 24px;
+    display: flex;
+}
+
+.li-trinity:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.span-trinity {
+    font-size: 14px;
+    margin: auto 0;
+}
+
+/* ABOUT: finish */
+
+
+/* CONTENT start */
+.content {
+    display: flex;
+    background-color: white;
+
+}
+
+.main {
+    margin: 50px auto;
+    padding: 10px 0;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* CONTENT finish */
+
+
+
+
+/* LEFT SECTION start */
+.section-left {
+    width: 360px;
+    height: auto;
+    display: block;
+}
+
+.section-left>p {
+    font-size: 20px;
+    font-weight: bold;
+    color: coral;
+}
+
+.left-header{
+    text-align: center;
+}
+
+/* LEFT SECTION finish */
+
+
+/* MIDDLE SECTION start */
+.section-middle {
+    width: auto;
+    height: auto;
+    min-width: 130px;
+    margin: auto;
+}
+
+.face {
+    margin: 50px;
+    border: 1px dashed black;
+    box-shadow: 0 0 10px black;
+    background-position: top center;
+
+
+}
+
+/* MIDDLE SECTION finish */
+
+
+/* RIGHT SECTION start */
+.section-right {
+    width: 360px;
+    height: auto;
+    margin: auto;
+
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: bold;
+    color: coral;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* .contact{
+    color: coral;
+    
+} */
+
+.in-contact {
+    color: black;
+    /* padding-left: 20px; */
+    font-size: 20px;
+}
+
+.mail {
+    display: block;
+    background-image: url('/main/img/mail.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin-top: 20px;
+    margin: 20px 120px;*/
+    padding-left: 30px; 
+    font-style: italic;
+}
+
+.cite {
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    text-shadow: 0 0 2px red, 0 0 1px coral;
+}
+
+.cite:hover,
+.mail:hover
+{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 0 6px red, 0 0 1px coral;
+    transition: all 500ms;
+}
+
+/* RIGHT SECTION finish */
+
+
+.ul-landing {
+    padding: 0px;
+
+}
+
+.ul-landing:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+label[for="ul-landing"] {
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 20px;
+    text-shadow: 0 0 3px rgb(20, 46, 51);
+
+
+    font-size: 24px;
+    font-weight: 100;
+
+
+
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    cursor: pointer;
+
+}
+
+label[for="ul-landing"] {
+    background: linear-gradient(to right, white, rgb(20, 46, 51), black);
+    text-shadow: 0 0 13px coral, 0 0 3px rgb(245, 12, 12);
+    color: #fff;
+    transition: all 500ms;
+}
+
+.li-style-landing,
+.li-style-multi {
+    text-align: right;
+    padding-right: 25%;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.696);
+    text-shadow: 0px 0 0.1px black, 0 0px 2px rgb(20, 46, 51);
+    background: linear-gradient(to right, white, coral);
+    list-style-type: none;
+    border: 1px dashed rgb(20, 46, 51);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.li-style-landing:hover,
+.li-style-multi:hover {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 1px 0 2px black, 0 1px 2px rgb(20, 46, 51);
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: color 100ms, text-shadow 1s;
+}
+
+.li-style-landing[name='math_first_form'],
+.li-style-multi[name='multi last'] {
+    padding-right: 25%;
+    border: 1px dashed rgb(20, 46, 51);
+    border-top: none;
+    border-left: none;
+    border-radius: 0 0 10px 0px;
+}
+
+
+li {
+    padding-left: 10px;
+}
+
+
+div {
+    font-family: myFirstFont;
+}
+
+/* FOOTER start */
+footer {
+    background-color: rgb(20, 46, 51);
+    font-size: 20px;
+
+
+}
+
+.footer-text {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* FOOTER finish */
+
+@font-face {
+    font-family: myULFont;
+    src: url(/main/fonts/sf-cartoonist-hand.bold.ttf);
+}
+
+@media only screen and (max-width: 550px) {
+    div.logo,
+    p.string-name,
+    .datePlace {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+    span.by{
+        display: none;
+    }
+  }

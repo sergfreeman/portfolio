@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+body {
+    
+    background: repeating-linear-gradient(25deg, transparent, transparent 3px, rgba(128, 128, 128, 0.1) 3px, rgba(128, 128, 128, 0.1) 4px), repeating-linear-gradient(-25deg, transparent 4px, transparent 7px, rgba(128, 128, 128, 0.1) 7px, rgba(128, 128, 128, 0.1) 9px);
+    font-family: 'Changa One', cursive;
+    color: yellow;
+    transition: all, 500ms;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.unsupport-alert {
+    display: none;
+}
+
+.wrapper {
+    display: block;
+
+
+}
+
+header {
+    
+    width: 100%;
+    font-size: 36px;
+    color: navy;
+    text-shadow: 3px 3px 3px rgba(18, 120, 18, 0.8);
+    text-align: center;
+    margin: auto;
+}
+
+.nav {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30px;
+}
+
+.settings>ul,
+.info[id='info']>li,
+.contact>li {
+    border: 1px dotted yellow;
+}
+
+.skin,
+.signature {
+    text-align: left;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    justify-content: center;
+    width: 150px;
+    background-color: transparent;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 2px black;
+}
+
+li {
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5ex;
+    text-align: center;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+li:hover {
+    background-color: brown;
+}
+
+p[id='messageP'] {
+    text-align: justify;
+    text-indent: 20px;
+    margin: 35px 60px;
+}
+
+#message {
+    width: calc(80% + 2px);
+    margin: auto;
+    display: none;
+    text-align: center;
+    border: 3px groove green;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+}
+
+.closeButton {
+    /* position: absolute;
+    padding-left: 95%; */
+    margin: 5px;
+    width: fit-content;
+    color: rgb(182, 43, 43);
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px red solid;
+    width: fit-content;
+    display: block;
+    float: right;
+    background-color: transparent;
+}
+
+.closeButton:hover {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(220, 18, 18);
+    text-shadow: 0 0 5px yellow;
+}
+
+table {
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+    background: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(0, 255, 4, 0.5) 5px, rgba(0, 255, 4, 0.5) 10px), repeating-linear-gradient(-45deg, rgba(6, 41, 214, 0.5) 10px, rgba(6, 41, 214, 0.5) 15px, transparent 15px, transparent 20px);
+    border-style: double;
+    border-radius: 10px;
+    border-color: gray;
+    border-spacing: 5px;
+    box-shadow: 0 0 3px 3px rgba(3, 144, 87, 0.6), 0 0 12px -1px rgba(26, 9, 82, 0.8);
+}
+
+tr,
+td {
+
+    height: auto;
+    border: 5px solid;
+    border-style: double;
+    border-radius: 50%;
+    background: repeating-radial-gradient(14deg, transparant, transparant 3px, rgba(128, 128, 128, 0.5) 3px, rgba(128, 128, 128, 0.5) 4px);
+}
+
+div[id='main'] {
+    width: 100%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+div[id='message'] {
+    display: block;
+    margin-top: 50px;
+    position: relative;
+    height: fit-content;
+    font-size: 24px;
+    word-wrap: break-word;
+}
+
+button[type='button'] {
+    width: 20%;
+    height: 40px;
+    margin-top: 25px;
+    border: 4px double green;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition-property: border;
+    transition: 1000ms;
+}
+
+button:hover {
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 0 0 10px white;
+    box-shadow: 0px 0px 15px cyan;
+}
+
+button:link {
+    color: black;
+}
+
+button:visited {
+    color: blue;
+}
+
+.settings:hover,
+.info:hover,
+.contact:hover {
+    cursor: pointer;
+    text-shadow: 0 0 15px rgba(228, 255, 20, 0.83), 0 0 3px rgba(247, 2, 2, 0.9);
+}
+
+.settings ul,
+.info>li,
+.contact>li {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .unsupport-alert {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .unsupport-alert p {
+
+        color: red;
+        text-align: center;
+        font-size: 10vw;
+        margin: 0;
+    }
+
+    .wrapper,
+    ul,
+    header {
+        display: none;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');

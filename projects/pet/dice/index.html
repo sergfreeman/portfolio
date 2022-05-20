@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dice</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./script/dice.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="unsupport-alert">
+        <p>
+            Warning: Device resolution is not supported
+        </p>
+    </div>
+    <header>
+        <h1>
+            Dice emulator
+        </h1>
+    </header>
+
+    <nav class="nav">
+        <ul class="menu-but settings" id="settings">Settings
+            <ul class="skin" id="skin">Skin:
+                <li id="darck">dark model</li>
+                <li id="white">white model</li>
+            </ul>
+            <ul class="signature" id="signature">Figure:
+                <li id="cube">cube</li>
+                <li id="circle">circle</li>
+            </ul>
+
+        </ul>
+        <ul class="menu-but info" id="info">Info
+            <li id="how">how to use</li>
+            <li id="imp">implement</li>
+        </ul>
+        <ul class="menu-but contact" id="contact">Contact
+            <li id="mail">mail to author</li>
+            <li id="site">to the author's PET</li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+
+        <div id="message">
+            <button class="closeButton">X</button>
+            <p id="messageP"></p>
+        </div>
+        <div id="main">
+
+            <br>
+            <table id="table">
+                <tr>
+                    <td id="id1" class="cells"></td>
+                    <td id="id2" class="cells"></td>
+                    <td id="id3" class="cells"></td>
+                </tr>
+                <tr>
+                    <td id="id4" class="cells"></td>
+                    <td id="id5" class="cells"></td>
+                    <td id="id6" class="cells"></td>
+                </tr>
+                <tr>
+                    <td id="id7" class="cells"></td>
+                    <td id="id8" class="cells"></td>
+                    <td id="id9" class="cells"></td>
+                </tr>
+            </table>
+            <button id="getRandom" type="button">throw</button>
+        </div>
+    </div>
+</body>
+</script>
+
+</html>

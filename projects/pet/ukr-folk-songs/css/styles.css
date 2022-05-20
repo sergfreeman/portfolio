@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to bottom, blue, blue 75px, yellow 75px, yellow 150px);
+    justify-content: center;
+
+}
+
+img[alt="Trident"] {
+    width: 80px;
+    height: 110px;
+    margin: 20px 10px;
+    opacity: .9;
+
+}
+
+h1 {
+    margin: auto 0;
+    font-size: 50px;
+    font-family: headerFont;
+    text-shadow: 1px 1px 3px gray;
+}
+
+.navigate {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: lightgray;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    font-family: navFont;
+    font-size: 18px;
+    background: lightgray;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background-image: url("../img/gerb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    background-attachment: fixed;
+}
+
+footer{
+    text-align: right;
+}
+
+.email{
+    display: block;
+    margin: 10px;
+    font: 12px 'Arial' ;
+    
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:gray;
+}
+
+.wrapper{
+    align-items: center;
+    padding: 5%;
+}
+
+#differentPages {
+    display: block;
+    word-wrap: normal;
+    margin: auto;
+    padding: 50px 10%;
+    width: fit-content;
+
+    font-family: "Calibri Light", serif;
+    font-weight: bold;
+    font-size: 22px;
+    box-shadow: 0 25px 50px 30px grey;
+    opacity: 85%;
+    word-wrap: normal;
+}
+
+hr {
+    color: grey;
+    height: 0;
+    box-shadow: 0 0 5px 3px grey;
+    opacity: 99%;
+}
+
+em {
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: headerFont;
+    src: url('fonts/Tinos-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: navFont;
+    src: url('fonts/Tinos-Bold.ttf');
+}
+
+@media screen and (max-width: 410px) {
+    h1{
+        font-size: 10vw;
+    }
+}
