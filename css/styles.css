@@ -25,7 +25,7 @@ header {
     margin: 5px;
     display: flex;
     width: 1000px;
-    font: myHeaderFont;
+    font-family: myHeaderFont;
 
     flex-direction: row;
     flex-wrap: wrap;
@@ -372,7 +372,7 @@ li {
 
 
 div {
-    font-family: myULFont;
+    font-family: myHeaderFont;
 }
 
 /* FOOTER start */
