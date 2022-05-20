@@ -117,12 +117,12 @@ em {
 
 @font-face {
     font-family: headerFont;
-    src: url('./fonts/Tinos-BoldItalic.ttf');
+    src: url('../fonts/Tinos-BoldItalic.ttf');
 }
 
 @font-face {
     font-family: navFont;
-    src: url('./fonts/Tinos-Bold.ttf');
+    src: url('../fonts/Tinos-Bold.ttf');
 }
 
 @media screen and (max-width: 410px) {
