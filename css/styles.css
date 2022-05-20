@@ -252,17 +252,15 @@ h3 {
 
 .in-contact {
     color: black;
-    /* padding-left: 20px; */
+    font-family: myContactFont;
     font-size: 20px;
 }
 
 .mail {
     display: block;
-    background-image: url('/main/img/mail.png');
+    background-image: url('../img/mail.png');
     background-size: contain;
     background-repeat: no-repeat;
-    /* margin-top: 20px;
-    margin: 20px 120px;*/
     padding-left: 30px; 
     font-style: italic;
 }
@@ -390,6 +388,11 @@ footer {
 @font-face {
     font-family: myHeaderFont;
     src: url('../fonts/Nunito-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: myContactFont;
+    src: url('../fonts/Nunito-Italic-VariableFont_wght.ttf');
 }
 
 @media only screen and (max-width: 550px) {
