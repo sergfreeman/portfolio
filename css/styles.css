@@ -68,11 +68,6 @@ a {
 
 
 .string-name {
-    /* display: flex;
-    align-items: center;
-    font-size: 30px;
-    text-shadow: red 0 0 1px, red 0 0 0px; */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -394,7 +389,7 @@ footer {
 
 @font-face {
     font-family: myHeaderFont;
-    src: url('//fonts/Nunito-VariableFont_wght.ttf');
+    src: url('/fonts/Nunito-Italic-VariableFont_wght.ttf');
 }
 
 @media only screen and (max-width: 550px) {
