@@ -38,12 +38,17 @@ for (let el = 0; el < contactElementsArr.length; el++) {
     if (el > 0) allMenuObjArr.push(temporalElement);
 }
 
+//hidden true/false main button (button of dice throw )
+function buttonIsHidden(value){
+    document.getElementById('getRandom').hidden = value;
+}
+
 //create events for elements of main menu
 function mainMenu(thisId) {
     switch (thisId) {
-        case 'settings': menuSettingsON(); break;
-        case 'info': menuInfoON(); break;
-        case 'contact': menuContactON(); break;
+        case 'settings': buttonIsHidden(true); menuSettingsON(); break;
+        case 'info': buttonIsHidden(true); menuInfoON(); break;
+        case 'contact': buttonIsHidden(true); menuContactON(); break;
         case 'cube': makeTheBorders('cube'); break;
         case 'circle': makeTheBorders('circle'); break;
         case 'white': makeTheBackgrounds('white'); break;
@@ -63,7 +68,7 @@ let table = document.getElementById('table');
 let msg = document.getElementById('message');
 let boxArr = ['id1', 'id2', 'id3', 'id4', 'id5', 'id6', 'id7', 'id8', 'id9'];
 let all = document.addEventListener('click', function (event) {
-    mainMenu(event.target.id);
+    mainMenu(event.target.id); 
 });
 
 closeButton.addEventListener('click', function () {
@@ -78,6 +83,7 @@ document.body.addEventListener('click', function (event) {
         if (el === event.target.id) return;
     }
     allMenuElemHide();
+    buttonIsHidden(false);
 })
 
 function allMenuElemHide() {
@@ -121,6 +127,7 @@ function makeTheAlert(myAlert) {
                 txt = authorMail;
             } else txt = authorSite;
     
+    // document.getElementById('getRandom').innerHTML = 'none';        
     nav.style.display = 'none';
     main.style.display = 'none';
     msg.style.display = 'block';
