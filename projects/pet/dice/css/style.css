@@ -203,7 +203,7 @@ button:visited {
     display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
     .unsupport-alert {
         height: 100%;
         width: 100%;
