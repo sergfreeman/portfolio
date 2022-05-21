@@ -57,7 +57,7 @@ button:hover {
 }
 
 body {
-    background-image: url("../img/gerb.png");
+    background: url("../img/gerb.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;
@@ -100,8 +100,9 @@ a:hover {
     font-weight: bold;
     font-size: 22px;
     box-shadow: 0 25px 50px 30px grey;
-    opacity: 85%;
+    opacity: 99%;
     word-wrap: normal;
+    background: transparent;
 }
 
 hr {
@@ -113,6 +114,13 @@ hr {
 
 em {
     font-weight: bold;
+}
+
+audio{
+    width: 350px;
+    height: 40px;
+    border: 3px double black;
+    border-radius: 25px;
 }
 
 @font-face {
