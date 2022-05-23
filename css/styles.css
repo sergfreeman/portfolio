@@ -219,7 +219,7 @@ h3 {
 }
 
 .face {
-    margin: 50px;
+    margin: 80px 50px 50px 50px;
     border: 1px dashed black;
     box-shadow: 0 0 10px black;
     background-position: top center;
@@ -239,7 +239,7 @@ h3 {
 }
 
 .contactSertificate{
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .contact {
@@ -247,7 +247,7 @@ h3 {
     font-weight: bold;
     color: coral;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
@@ -323,7 +323,7 @@ label[for="ul-landing"] {
 
 label[for="ul-landing"] {
 
-    width: 345px;
+    width: 340px;
 
     background: linear-gradient(to right, white, rgb(20, 46, 51), black);
     text-shadow: 0 0 13px coral, 0 0 3px rgb(245, 12, 12);
@@ -335,11 +335,11 @@ label[for="ul-landing"] {
 .li-style-multi {
 
 
-    width: 345px;
+    width: 340px;
 
 
     text-align: right;
-    padding-right: 25%;
+    padding-right: 20%;
     font-size: 20px;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.696);
@@ -364,7 +364,7 @@ label[for="ul-landing"] {
 
 .li-style-landing[name='math_first_form'],
 .li-style-multi[name='multi last'] {
-    padding-right: 25%;
+    padding-right: 20%;
     border: 1px dashed rgb(20, 46, 51);
     border-top: none;
     border-left: none;
