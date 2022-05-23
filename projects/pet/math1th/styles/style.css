@@ -8,8 +8,12 @@
 .wrapper{
     background: repeating-linear-gradient(0grad, transparent 0 29px, blue 30px 30px), 
     repeating-linear-gradient(to right, transparent 0 29px, blue 30px 30px);
-
+    /* background-attachment: local; */
+    /* background-repeat: no-repeat; */
+    background-position: center ;
+    background-attachment: local;
     display: flex;
+    position: relative;
 }
 
 /* ASIDE start */
@@ -20,34 +24,37 @@
 }
 
 .logo{
+    display: block;
+    height: auto;
     background-color: blue;
     color: white;
     font-family: mathRegularFont;
     font-style: normal;
     text-align: center;
+    margin-bottom: 30px;
     
 }
 
 .logo>h1{
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     font-size: 75px;
 }
 
 .logo>h2{
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     /* font-size: 75px; */
 }
 
 .authentification{
-    margin: 30px 0;
+    display: block;
     
     
 }
 
 .authent-form{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
     /* padding: 5px 0; */
     background-color: blue;
     color: white;
@@ -56,11 +63,12 @@
     font-size: 20px;
     text-align: center;
     justify-content: center;
-    padding: 5px;
+    padding: 10px;
+    /* margin: 10px 10px; */
 }
 
 /* fieldset{
-    padding: 10px;
+    margin: 1px;
 } */
 
 .student-name,
@@ -89,10 +97,12 @@
     align-items: center;
     /* margin-left: 15px; */
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 .actions{
-    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     /* padding-top: 10px; */
 }
 
@@ -103,8 +113,10 @@ ul{
 }
 
 li{
+    height: 30px;
     font-size: 30px;
-    padding: 0px 0px 5px 35px;
+   padding-left: 30px;
+    line-height: 30px;
     
 }
 
@@ -121,14 +133,15 @@ a:hover{
 
 .rubricator{
     width: auto;
-    /* padding-top: 10px; */
+    color: blue;
     text-align: center;
     font-weight: bolder;
+    margin-top: 30px;
 }
 
 .sub-rubricator{
-    margin-left: 50px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
     font-weight: bold;
     text-align: left;
     list-style: none;
@@ -173,7 +186,7 @@ a:hover{
     margin-top: 30px;
     word-wrap: break-word;
 }
-/* CONTEMT finish */
+/* CONTENT finish */
 
 
 
@@ -201,7 +214,7 @@ footer{
 
 .author-info,
 .address{
-    width: 360px;
+    width: auto;
     text-align: center;
     margin: 5px;
 }
@@ -222,7 +235,7 @@ footer{
     src: url('../fonts/YanoneKaffeesatz-Regular.ttf');
 }
 
-@media screen and (max-width: 1005px) {
+@media screen and (max-width: 550px) {
     footer{
         flex-direction: column;
     }
