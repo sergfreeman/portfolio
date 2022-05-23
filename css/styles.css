@@ -193,6 +193,7 @@ h3 {
     width: 360px;
     height: auto;
     display: block;
+    word-wrap: break-word;
 }
 
 .section-left>p {
@@ -201,7 +202,7 @@ h3 {
     color: coral;
 }
 
-.left-header{
+.left-header {
     text-align: center;
 
 }
@@ -213,7 +214,7 @@ h3 {
 .section-middle {
     width: auto;
     height: auto;
-    min-width: 130px;
+    /* min-width: 130px; */
     margin: auto;
 }
 
@@ -262,7 +263,7 @@ h3 {
     background-image: url('../img/mail.png');
     background-size: contain;
     background-repeat: no-repeat;
-    padding-left: 30px; 
+    padding-left: 30px;
     font-style: italic;
 }
 
@@ -274,8 +275,7 @@ h3 {
 }
 
 .cite:hover,
-.mail:hover
-{
+.mail:hover {
     font-weight: bolder;
     color: rgba(0, 0, 0, 0.7);
     text-shadow: 0 0 6px red, 0 0 1px coral;
@@ -319,7 +319,7 @@ label[for="ul-landing"] {
 
 label[for="ul-landing"] {
 
-/* width: 340px; */
+    width: 330px;
 
     background: linear-gradient(to right, white, rgb(20, 46, 51), black);
     text-shadow: 0 0 13px coral, 0 0 3px rgb(245, 12, 12);
@@ -331,7 +331,7 @@ label[for="ul-landing"] {
 .li-style-multi {
 
 
-/* width: 340px; */
+    width: 330px;
 
 
     text-align: right;
@@ -369,7 +369,7 @@ label[for="ul-landing"] {
 
 
 li {
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 
@@ -387,7 +387,7 @@ footer {
 
 .footer-text {
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     color: white;
 }
@@ -405,15 +405,16 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
+
     div.logo,
     p.string-name,
     .datePlace {
-      display: block;
-      width: 100%;
-      text-align: center;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
-    span.by{
+    span.by {
         display: none;
     }
-  }
+}
