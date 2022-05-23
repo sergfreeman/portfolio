@@ -193,7 +193,7 @@ h3 {
     width: 360px;
     height: auto;
     display: block;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
 }
 
 .section-left>p {
@@ -319,7 +319,7 @@ label[for="ul-landing"] {
 
 label[for="ul-landing"] {
 
-    width: 330px;
+    width: 345px;
 
     background: linear-gradient(to right, white, rgb(20, 46, 51), black);
     text-shadow: 0 0 13px coral, 0 0 3px rgb(245, 12, 12);
@@ -331,7 +331,7 @@ label[for="ul-landing"] {
 .li-style-multi {
 
 
-    width: 330px;
+    width: 345px;
 
 
     text-align: right;
