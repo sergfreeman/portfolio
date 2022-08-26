@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Математика: 1-ий клас</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/index.js" type="module"></script>
 
 </head>
 
@@ -18,10 +19,10 @@
                 <h2>1-ий клас</h2>
             </div>
             <div class="authentification">
-                <form class="authent-form">
+                <form class="authent-form" method="GET" action="./two_additions_till10.html">
                     <fieldset>
                     <legend>Авторизація для надсилання результатів</legend>
-                    <input type="text" placeholder="Прізвище та ім'я учня" class="student-name">
+                    <input type="text" placeholder="Прізвище та ім'я учня" class="student-name" name = "s-name" >
                     <input type="text" placeholder="Електронна адреса учителя" class="teacher-email">
                     <label class="labelForCheckBox"><input type="checkbox" class="form-checkbox"> результати надсилатимуться</label>
                     </fieldset>
@@ -31,43 +32,43 @@
                 <ul class="rubricator">Арифметичні завдання
                     <ul class="sub-rubricator">Додавання:
                         <li class="menuLi">
-                            <a href="#">двох чисел у межах 10</a>
+                            <a href="" class="two_additions_till10">двох чисел у межах 10</a>
                         </li>
                         <li>
-                            <a href="#" class="menuLi">двох чисел у межах 100</a>
+                            <a href="#" class="two_additions_till100">двох чисел у межах 100</a>
                         </li>
                         <li>
-                            <a href="#">кількох чисел у межах 10</a>
+                            <a href="#" class="several_additions_till10">кількох чисел у межах 10</a>
                         </li>
                         <li>
-                            <a href="#">кількох чисел у межах 100</a>
+                            <a href="#" class="several_additions_till100">кількох чисел у межах 100</a>
                         </li>
 
                     </ul>
                     <ul class="sub-rubricator">Віднімання:
                         <li>
-                            <a href="#">двох чисел у межах 10</a>
+                            <a href="#" class="two_substraction_till10">двох чисел у межах 10</a>
                         </li>
                         <li>
-                            <a href="#">двох чисел у межах 100</a>
+                            <a href="#" class="two_substraction_till100">двох чисел у межах 100</a>
                         </li>
                         <li>
-                            <a href="#">кількох чисел у межах 10</a>
+                            <a href="#" class="several_substraction_till10">кількох чисел у межах 10</a>
                         </li>
                         <li>
-                            <a href="#">кількох чисел у межах 100</a>
+                            <a href="#" class="several_substraction_till100">кількох чисел у межах 100</a>
                         </li>
                     </ul>
                     <ul class="sub-rubricator">Комбінування:
                         <li>
-                            <a href="#">двох дій у межах 10</a>
+                            <a href="#" class="several_combination_till10">двох дій у межах 10</a>
                         </li>
                         <li>
-                            <a href="#">двох дій у межах 100</a>
+                            <a href="#" class="several_combination_till100">двох дій у межах 100</a>
                         </li>
                     </ul>
 
-
+                   
 
                 </ul>
                 <ul class="rubricator">Логічні завдання
@@ -76,7 +77,7 @@
                             <a href="#">двох чисел у межах 10</a>
                         </li>
                         <li>
-                            <a href="#">двох чисел у межах 100</a>
+                            <a href="" class="two_comparison_till100">двох чисел у межах 100</a>
                         </li>
                     </ul>
                 </ul>
