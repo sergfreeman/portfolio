@@ -2,8 +2,10 @@
 * {
     /* margin: 0;
     padding: 0; */
-    box-sizing: border-box;
     /* border: 1px solid red; */
+
+
+    box-sizing: border-box;
     user-select: none;
 }
 
@@ -207,18 +209,18 @@ footer {
 
 @font-face {
     font-family: headerFont;
-    src: url('/fonts/RussoOne-Regular.ttf');
+    src: url('../fonts/RussoOne-Regular.ttf');
 }
 
 @font-face {
 
     font-family: buttonFont;
-    src: url('/fonts/Cuprum-VariableFont_wght.ttf');
+    src: url('../fonts/Cuprum-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: contentFont;
-    src: url('/fonts/SourceSansPro-Regular.ttf');
+    src: url('../fonts/SourceSansPro-Regular.ttf');
 }
 
 /*----------GLOBAL finish----------*/
@@ -430,10 +432,10 @@ textarea {
         display: flex;
         margin: auto;
         align-items: center;
-    } */
+    } 
 
     figure {
         margin:  20px auto;
-        /* padding: 0 10px 0 10px; */
+        
     }
-}
+}*/
