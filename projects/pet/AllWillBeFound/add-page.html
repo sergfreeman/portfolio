@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="/js/index-script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>ЯВіднайдусь - додати анкету</title>
+</head>
+
+<body>
+    <header class="back-fill">
+        <h1>
+            ЯВіднайдусь
+        </h1>
+        <h3>
+            <strong>
+                Безкоштовний сайт пошуку людей
+            </strong>
+        </h3>
+        <ul class="top-nav">
+            <li class="top-nav-li">
+                <a href="./index.html" target="_self"> Головна </a>
+            </li>
+            <li class="top-nav-li">
+                <b> Додатися </b>
+            </li>
+            <li class="top-nav-li">
+                <a href="./search-page.html" target="_self"> Знайти </a>
+            </li>
+            <li class="top-nav-li">
+                <a href="#" target="_self"> Контакти </a>
+            </li>
+            <li class="top-nav-li">
+                <a href="#" target="_self"> Кабінет </a>
+            </li>
+        </ul>
+        <em>
+            Знайдуться всі - знайдем усіх.
+        </em>
+    </header>
+    <div class="wrapper">
+
+
+        <div class="main-section">
+
+            <div class="top-section">
+                <p class="authorization">
+                    <span class="caution"> Для початку роботи необхідно пройти авторизацію у кабінеті. </span>
+                </p>
+                <div class="inner">
+                    <p>
+                        Для участі у проєкті Ви повинні залишити свої контакти. У подальшому за вказаними критеріями їх
+                        зможуть знайти інші люди. Інформація повинна бути максимально корисною та коректною. Від
+                        кількості вказаних полів залежить ймовірність успішного пошуку та знаходження Вас іншими людьми.
+                        Проте потрібно усвідомлювати власну відповідальність за особисту безпеку.
+                    </p>
+                </div>
+                <div class="inner">
+                    <p>
+                        <span>Увага!</span><br>
+                        Вся наданна інформація може бути використана потенційними зловмисниками проти Вас, тому
+                        усвідомте можливі ризики та підтвердіть згоду на доступ до неї широкого загалу.
+                    </p>
+                    <p> При першій реєстрації та у подальшому Користувач має
+                        можливість вибору полів які бажає розмістити у загальному доступі. Поля не позначені як
+                        <span>`на
+                            публікацію`</span> не відображатимуться і залишатимуться у особистому файлі
+                        конфіденційно.
+                        У майбутньому, за потреби, їх завжди можна перепозначити та опублікувати.
+                    </p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="add-form">
+
+                    <form>
+                        <fieldset>
+                            <legend> Форма реєстрації учасника пошукової операції </legend>
+                            <fieldset class="full-name">
+                                <legend>П.І.Б.</legend>
+
+                                <div>
+                                    <input class="text-field first-name" type="text" title="(кирилицею до 50 знаків)"
+                                        placeholder="Ім`я учасника">
+                                    <label for="first-name-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field first-name-checkbox" type="checkbox">
+                                    </label>
+                                </div>
+
+                                <div>
+                                    <input class="text-field second-name" type="text" title="(кирилицею до 50 знаків)"
+                                        placeholder="Прізвище учасника">
+                                    <label for="second-name-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field second-name-checkbox" type="checkbox">
+                                    </label>
+                                </div>
+
+                                <div>
+                                    <input class="text-field third-name" type="text" title="(кирилицею до 50 знаків)"
+                                        placeholder="По-батькові учасника">
+                                    <label for="third-name-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field third-name-checkbox" type="checkbox">
+                                    </label>
+                                </div>
+
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Дати народження та втрати звязку</legend>
+
+                                <div>
+                                    <input class="date-field birth-date" type="date"
+                                        title="Дата народження (цифриова дата форматом ДДММРРРР)">
+                                    <label for="birth-date-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field birth-date-checkbox" type="checkbox">
+                                    </label>
+                                </div>
+
+                                <div>
+                                    <input class="date-field lost-date" type="date"
+                                        title="Дата втрати контакту (цифриова дата форматом ДДММРРРР)">
+                                    <label for="lost-date-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field lost-date-checkbox" type="checkbox">
+                                    </label>
+                                </div>
+
+                            </fieldset>
+
+
+
+                            <fieldset>
+                                <legend>Локації: до втрати звязку та поточна</legend>
+                                <fieldset class="inner">
+                                    <legend>Місце вашого прожтвання до втрати звязку</legend>
+                                    <div class="vertical-flex-div">
+
+                                        <div class="vertical-flex-div">
+                                            <input class="text-field lost-location-country" type="text"
+                                                title="Країна проживання до втрати звязку:(кирилицею до 50 знаків)"
+                                                placeholder="Країна">
+                                            <input class="text-field lost-location-city" type="text"
+                                                title="Місто/населений пункт Вашого проживання до втрати звязку:(кирилицею до 50 знаків)"
+                                                placeholder="Місто">
+                                        </div>
+
+                                        <div>
+                                            <label for="lost-location-checkbox">
+                                                на публікацію
+                                                <input class="checkbox-field lost-location-checkbox" type="checkbox">
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </fieldset>
+
+
+
+                                <fieldset>
+                                    <legend>Поточне місце проживання</legend>
+                                    <div>
+
+                                        <div class="vertical-flex-div">
+                                            <input class="text-field current-location-country" type="text"
+                                                title="Країна Вашого теперешнього проживання:(кирилицею до 50 знаків)"
+                                                placeholder="Країна">
+                                            <input class="text-field current-location-city" type="text"
+                                                title="Місто/населений пункт Вашого теперешнього проживання:(кирилицею до 50 знаків)"
+                                                placeholder="Місто">
+                                        </div>
+
+                                        <div>
+                                            <label for="current-location-checkbox">
+                                                на публікацію
+                                                <input class="checkbox-field current-location-checkbox" type="checkbox">
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </fieldset>
+
+                            </fieldset>
+
+                            <fieldset class="contact">
+                                <legend>Контакти</legend>
+
+                                <div>
+                                    <input class="text-field telephone" type="tel" title="(11 знаків)"
+                                        placeholder="Номер телефону">
+                                    <label for="telephone-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field telephone-checkbox" type="checkbox">
+                                    </label>
+                                </div>
+
+                                <div>
+                                    <input class="text-field email" type="email" title="(латиницею)"
+                                        placeholder="Електронна адреса">
+                                    <label for="email-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field email-checkbox" type="checkbox">
+                                    </label>
+                                </div>
+
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Інше</legend>
+                                <div>
+                                    <textarea class=" another" title="(300 символів)"
+                                        placeholder="Додаткова інформація">
+                                    </textarea>
+                                    <label for="another-checkbox">
+                                        на публікацію
+                                        <input class="checkbox-field another-checkbox" type="checkbox">
+                                    </label>
+
+                                </div>
+                            </fieldset>
+
+
+
+                            <button class="submit-button" type="submit"
+                                title="Розмістити Вашу інформацію на сайті">Надіслати</button>
+                        </fieldset>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="aside">
+
+
+        </div>
+
+
+
+    </div>
+    <!-- <footer class="back-fill">
+        <nav class="bottom-nav">
+
+            <a href="index.html" target="_self" class="bottom-nav-button">
+                << на попередню < </a>
+
+                    <a href="#" target="_self" class="bottom-nav-button">
+                        < Додатися>
+                    </a>
+
+                    <a href="#" target="_self" class="bottom-nav-button">
+                        > на наступну >>
+                    </a>
+        </nav>
+    </footer> -->
+    </div>
+
+    <footer class="back-fill">
+        <nav class="bottom-nav">
+
+            <a href="index.html" target="_self" class="bottom-nav-button">
+                <&laquo;< </a>
+
+
+                    <a href="#" target="_self" class="bottom-nav-button">
+                        &and;
+                    </a>
+
+                    <a href="./search-page.html" target="_self" class="bottom-nav-button">
+                        >&raquo;>
+                    </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
