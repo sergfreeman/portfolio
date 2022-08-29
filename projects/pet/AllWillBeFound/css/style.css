@@ -45,8 +45,12 @@ h1 {
     margin: auto 20.5%;
     padding-top: 10px;
     font-size: 60px;
+
+
     /* text-shadow:white 0 0 2px, rgba(212, 14, 14, 0.9) 0 0 5px;
     clip: rect(auto); */
+
+
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
